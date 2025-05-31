@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+/* style.css */
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+#line {
+    width: 200px;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the line */
+}
